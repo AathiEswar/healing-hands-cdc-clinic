@@ -75,13 +75,14 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="contact__form" data-reveal>
+          {/* Book an appointment form section */}
+          {/* <div className="contact__form" data-reveal>
             <div className="contact__form-head">
               <h3>Book your visit</h3>
               <p><span className="pulse-dot" aria-hidden="true" /> Confirmed within 15 minutes, 8 AM – 9 PM</p>
             </div>
             <BookingForm />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

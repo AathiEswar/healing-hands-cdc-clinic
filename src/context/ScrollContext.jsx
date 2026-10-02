@@ -245,12 +245,9 @@ export function ScrollProvider({ loaded, children }) {
   const bookingOpenRef = useRef(false);
 
   const openBooking = useCallback((dept = '', slot = '') => {
-    if (!bookingOpenRef.current) {
-      bookingOpenRef.current = true;
-      lockScroll();
-    }
-    setBooking({ open: true, dept, slot });
-  }, [lockScroll]);
+    // Fallback while booking modal is commented out: scroll to visit / contact
+    scrollTo('#visit');
+  }, [scrollTo]);
 
   const closeBooking = useCallback(() => {
     if (bookingOpenRef.current) {

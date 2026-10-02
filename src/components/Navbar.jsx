@@ -112,9 +112,9 @@ export default function Navbar() {
               <Icon name="whatsapp" size={18} />
               <span>WhatsApp</span>
             </a>
-            <Button variant="primary" className="btn--sm nav__cta" onClick={() => openBooking()} icon="calendar">
+            {/* <Button variant="primary" className="btn--sm nav__cta" onClick={() => openBooking()} icon="calendar">
               Book appointment
-            </Button>
+            </Button> */}
             <button
               className={`nav__burger ${menuOpen ? 'is-open' : ''}`}
               onClick={() => setMenuOpen((v) => !v)}
@@ -139,10 +139,10 @@ export default function Navbar() {
           ))}
         </nav>
         <div className="menu__foot">
-          <button className="btn btn--primary btn--block" onClick={() => { setMenuOpen(false); openBooking(); }}>
+          {/* <button className="btn btn--primary btn--block" onClick={() => { setMenuOpen(false); openBooking(); }}>
             <span className="btn__solo">Book appointment</span>
             <span className="btn__ic"><Icon name="calendar" size={16} strokeWidth={2} /></span>
-          </button>
+          </button> */}
           <div className="menu__row">
             <a className="btn btn--ghost btn--half" href={CLINIC.phoneHref}>
               <span className="btn__solo">Call</span>

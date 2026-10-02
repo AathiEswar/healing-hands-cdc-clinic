@@ -47,13 +47,13 @@ export default function FloatingDock() {
           </a>
         </Magnetic>
 
-        <Magnetic strength={0.4}>
+        {/* <Magnetic strength={0.4}>
           <button className="fab__btn" onClick={() => openBooking()} data-cursor="hover" aria-label="Book an appointment">
             <span className="fab__ring" aria-hidden="true" />
             <Icon name="calendar" size={18} strokeWidth={2} />
             <span>Book now</span>
           </button>
-        </Magnetic>
+        </Magnetic> */}
       </div>
 
       {/* Mobile sticky dock */}
@@ -66,10 +66,10 @@ export default function FloatingDock() {
           <Icon name="whatsapp" size={20} />
           <span>WhatsApp</span>
         </a>
-        <button className="dock__item dock__item--main" onClick={() => openBooking()} aria-label="Book appointment" title="Book appointment">
+        {/* <button className="dock__item dock__item--main" onClick={() => openBooking()} aria-label="Book appointment" title="Book appointment">
           <Icon name="calendar" size={20} strokeWidth={2} />
           <span>Book now</span>
-        </button>
+        </button> */}
       </nav>
     </>
   );

@@ -760,6 +760,7 @@
 
 /* ── contact / visit ───────────────────────────────────────── */
 .contact__grid { display: grid; grid-template-columns: 1fr 1.05fr; gap: clamp(28px, 4vw, 60px); align-items: start; }
+.contact__grid:has(> :only-child) { grid-template-columns: minmax(0, 680px); justify-content: center; }
 .contact__info { display: flex; flex-direction: column; gap: 26px; }
 
 .contact__map {

@@ -42,10 +42,10 @@ export default function Hero() {
           </p>
 
           <div className="hero__ctas">
-            <Button magnetic icon="calendar" onClick={() => openBooking()} aria-label="Book a consultation">
+            {/* <Button magnetic icon="calendar" onClick={() => openBooking()} aria-label="Book a consultation">
               Book a consultation
-            </Button>
-            <Button variant="ghost" icon="phone" href={CLINIC.phoneHref}>
+            </Button> */}
+            <Button variant="primary" icon="phone" href={CLINIC.phoneHref}>
               Call the center
             </Button>
           </div>
@@ -85,7 +85,7 @@ export default function Hero() {
             </span>
           </div>
 
-          <div className="hero__card hero__card--slot" data-scroll data-scroll-speed="0.6">
+          {/* <div className="hero__card hero__card--slot" data-scroll data-scroll-speed="0.6">
             <p className="hero__card-eyebrow"><span className="pulse-dot" aria-hidden="true" /> Next evaluation slot</p>
             <p className="hero__card-doc">{nextDoc.name}</p>
             <p className="hero__card-dept">{nextDoc.dept}</p>
@@ -97,7 +97,7 @@ export default function Hero() {
             >
               Book session <Icon name="arrowR" size={14} strokeWidth={2.2} />
             </button>
-          </div>
+          </div> */}
 
           <div className="hero__card hero__card--rating" data-scroll data-scroll-speed="1.1">
             <Stars />

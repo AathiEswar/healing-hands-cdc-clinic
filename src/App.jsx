@@ -52,7 +52,7 @@ function Site() {
       <Cursor />
       <Navbar />
       <FloatingDock />
-      <BookingModal />
+      {/* <BookingModal /> */}
 
       <div className="scroll-container" data-scroll-container ref={containerRef}>
         <div ref={scope}>
@@ -66,7 +66,7 @@ function Site() {
             <Process />
             <Testimonials />
             <Faq />
-            <CtaBanner />
+            {/* <CtaBanner /> */}
             <Contact />
           </main>
           <Footer />
