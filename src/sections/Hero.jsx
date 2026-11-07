@@ -34,7 +34,7 @@ export default function Hero() {
       <div className="hero__inner container">
         <div className="hero__copy">
           <h1 className="hero__title">
-            Specialized therapy for your <em>child’s growth &amp; development.</em>
+            Specialized Child Development &amp; Therapy in <em>Thiruverkadu, Chennai</em>
           </h1>
 
           <p className="hero__sub">
@@ -70,6 +70,10 @@ export default function Hero() {
                 src="/hero-child-stacking.jpg"
                 alt="Child engaged in learning and occupational therapy at Healing Hands CDC"
                 className="hero__main-img"
+                width="275"
+                height="275"
+                fetchPriority="high"
+                decoding="async"
               />
               <div className="hero__img-badge">
                 <span className="hero__img-badge-dot" />

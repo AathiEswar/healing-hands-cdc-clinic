@@ -69,6 +69,9 @@ export default function Brochures() {
                   alt={b.title}
                   className="brochure-card__img"
                   loading="lazy"
+                  decoding="async"
+                  width="720"
+                  height="960"
                 />
                 <div className="brochure-card__overlay">
                   <span className="brochure-card__zoom-btn">
@@ -168,7 +171,7 @@ export default function Brochures() {
               </div>
             </div>
             <div className="brochure-modal__img-holder">
-              <img src={activeModal.src} alt={activeModal.title} />
+              <img src={activeModal.src} alt={activeModal.title} loading="lazy" decoding="async" />
             </div>
           </div>
         </div>,

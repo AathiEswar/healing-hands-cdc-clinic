@@ -81,10 +81,10 @@ export default function Preloader({ onComplete }) {
             <path d="M42 52 C45 50 49 51 48 57 C48 62 41 62 42 52 Z" fill="#F59E0B" />
           </svg>
         </span>
-        <h1 className="preloader__name">
+        <div className="preloader__name" aria-hidden="true">
           <span>Healing Hands</span>
           <span>Child Development Centre</span>
-        </h1>
+        </div>
         <span className="preloader__tag">{CLINIC.tagline}</span>
       </div>
       <span className="preloader__num" ref={numRef}>0</span>
