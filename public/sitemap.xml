@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Healing Hands Child Development Centre - Main Page -->
+  <url>
+    <loc>https://healinghandscdc.com/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://healinghandscdc.com/hero-child-stacking.jpg</image:loc>
+      <image:title>Child engaged in learning and occupational therapy at Healing Hands CDC</image:title>
+      <image:caption>Healing Hands Child Development Centre - Specialized Pediatric Therapy in Thiruverkadu, Chennai</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://healinghandscdc.com/brochure-overview.jpg</image:loc>
+      <image:title>Healing Hands CDC Clinical Services Overview Brochure (English)</image:title>
+      <image:caption>Pediatric Occupational Therapy, Speech Therapy, Behaviour Therapy, Physiotherapy, and Sensory Integration</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://healinghandscdc.com/brochure-tamil.jpg</image:loc>
+      <image:title>ஹீலிங் ஹேண்ட்ஸ் குழந்தைகள் வளர்ச்சி மையம் தகவல் கையேடு (Tamil Brochure)</image:title>
+      <image:caption>சிறப்பு குழந்தை சிகிச்சை சேவைகள் மற்றும் தொடர்பு விவரங்கள் - திருவேற்காடு, சென்னை</image:caption>
+    </image:image>
+  </url>
+</urlset>

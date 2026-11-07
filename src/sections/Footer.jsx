@@ -58,7 +58,7 @@ export default function Footer() {
             <p className="footer__landmark" style={{ fontSize: '0.85rem', opacity: 0.8, marginTop: '4px' }}>Landmark: {CLINIC.landmark}</p>
             <a href={CLINIC.phoneHref} data-cursor="hover">{CLINIC.phoneDisplay}</a>
             <a href={`mailto:${CLINIC.email}`} data-cursor="hover">{CLINIC.email}</a>
-            <p className="footer__hours">Mon–Sat 9:30 AM–1:30 PM & 5 PM–9 PM</p>
+            <p className="footer__hours">Mon–Fri: 9:00 AM – 7:00 PM | Sat: 9:00 AM – 1:00 PM</p>
           </div>
         </div>
 

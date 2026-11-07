@@ -1,0 +1,8 @@
+# Robots.txt for Healing Hands Child Development Centre (CDC)
+# https://healinghandscdc.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://healinghandscdc.com/sitemap.xml

@@ -73,11 +73,11 @@ export default function Doctors() {
     <section className="doctors section" data-scroll-section id="doctors">
       <div className="container">
         <SectionHeader
-          eyebrow="Our Doctor"
-          segments={[{ t: 'Expert physician who ' }, { t: 'listens first.', em: true }]}
+          eyebrow="Our Specialist"
+          segments={[{ t: 'Clinical director who ' }, { t: 'listens and cares.', em: true }]}
           side={
             <>
-              <p>Experienced alumnus of Madras Medical College (MMC) with DNB specialization in Family Medicine — dedicated to compassionate, evidence-based care.</p>
+              <p>Experienced pediatric specialist in Occupational Therapy and Child Mental Health — dedicated to compassionate, evidence-based therapy and family guidance.</p>
             </>
           }
         />

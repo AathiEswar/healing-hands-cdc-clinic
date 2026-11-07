@@ -12,6 +12,7 @@ export const CLINIC = {
   motto: 'Every Child Deserves the Opportunity to Shine!',
   tamilTagline: 'அன்பான கைகள்... சிறந்த நாளைக்காக...',
   city: 'Thiruverkadu · Chennai-77',
+  siteUrl: 'https://healinghandscdc.com',
 
   // Phone shown to users + the tel: link
   phoneDisplay: '+91 70108 85386',

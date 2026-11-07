@@ -25,9 +25,9 @@ export default function Process() {
         </ol>
 
         <p className="process__cta" data-reveal>
-          Not sure which specialist you need?{' '}
-          <button className="link-arrow" onClick={() => openBooking('General Medicine')} data-cursor="hover">
-            Start with General Medicine <Icon name="arrowR" size={15} strokeWidth={2.2} />
+          Not sure which therapy your child needs?{' '}
+          <button className="link-arrow" onClick={() => openBooking('Developmental Assessment')} data-cursor="hover">
+            Start with a Developmental Assessment <Icon name="arrowR" size={15} strokeWidth={2.2} />
           </button>
         </p>
       </div>
